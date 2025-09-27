@@ -12,8 +12,8 @@ Run the commands below for `python-evtx`:
 sudo apt-get -y update
 sudo apt-get -y install python3-pip python3-venv
 python -m venv .venv
-pip3 install python-evtx
 source .venv/bin/activate
+pip3 install python-evtx
 ```
 
 We use the [`EVTX-ATTACK-SAMPLES` repository](https://github.com/sbousseaden/EVTX-ATTACK-SAMPLES), consisting of Windows event log files:
