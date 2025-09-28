@@ -1,0 +1,9 @@
+#!/usr/bin/expect -f
+
+spawn ftp localhost -p 2021
+expect ":"
+send "galilei\r"
+expect "Password:"
+send "epursimove\r"
+expect "ftp>"
+send "quit\r"
